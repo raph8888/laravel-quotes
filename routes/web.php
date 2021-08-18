@@ -12,5 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+
+    $results = DB::select('select * from cryptofx');
+
+    $data = [
+        'brokers' => $results
+    ];
+
+    return view('welcome', $data);
 });
