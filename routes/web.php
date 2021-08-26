@@ -1,5 +1,8 @@
 <?php
 
+use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\CryptoController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -12,40 +15,11 @@
 */
 
 Route::get("/", function () {
-
-    $brokers = [];
-    $fees = [];
-
-    $quotes = [
-        "Do what you love, and period",
-        "Listen to everyone - Trust the ones you admire - Follow your heart",
-        "It's not what they call you. It's what you answer to.",
-        "#govegan",
-        "Learn a vegan recipe!",
-        "Plenitude can be found in the smallest things",
-        "Wear sunscreen",
-        "Your dreams don't work if you don't",
-        "The hour is darkest before the dawn",
-        "Per aspera ad astra"
-    ];
-
-    // Test database connection
-    try {
-        DB::connection()->getPdo();
-
-        $brokers = DB::select("select * from cryptofx");
-        $fees = DB::select("select * from fees");
-
-    } catch (\Exception $e) {
-        error_log("Database error: " . $e->getMessage());
-    }
-
-
-    $data = [
-        "brokers" => $brokers,
-        "fees" => $fees,
-        "quote" => $quotes[array_rand($quotes)]
-    ];
-
+    $data = HomepageController::homepageData();
     return view("homepage", $data);
+});
+
+Route::get("/crypto-police", function () {
+    $data = CryptoController::cryptoData();
+    return view("crypto", $data);
 });

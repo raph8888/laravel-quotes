@@ -10,7 +10,7 @@
 <body class="">
 <div class="wrapper">
 
-    <a href="{{Request::url()}}"><h3 class="banner-text">{{ $quote }}</h3></a>
+    <a href="{{Request::url()}}"><h2 class="banner-text">{{ $quote }}</h2></a>
 
 </div>
 <script type="text/javascript" src="{{ asset('js/set-background.js') }}"></script>
