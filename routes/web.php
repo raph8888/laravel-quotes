@@ -17,14 +17,15 @@ Route::get("/", function () {
     $fees = [];
 
     $quotes = [
-        "Do what you love, and period.",
-        "Listen to everyone, trust the people you admire, follow your heart.",
-        "It's not what they call you, it's what you answer to.",
+        "Do what you love, and period",
+        "Listen to everyone - Get advice from the people you admire - Follow your heart",
+        "It's not what they call you. It's what you answer to.",
         "#govegan",
-        "Learn a vegan recipe.",
-        "Plenitude can be found in the smallest things.",
-        "Wear sunscreen.",
-        "Your dreams don't work if you don't.",
+        "Learn a vegan recipe!",
+        "Plenitude can be found in the smallest things",
+        "Wear sunscreen",
+        "Your dreams don't work if you don't",
+        "The hour is darkest before the dawn"
     ];
 
     // Test database connection
