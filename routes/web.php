@@ -13,10 +13,24 @@
 
 Route::get('/', function () {
 
-    $results = DB::select('select * from cryptofx');
+    $brokers = [];
+    $fees = [];
+
+    // Test database connection
+    try {
+        DB::connection()->getPdo();
+
+        $brokers = DB::select('select * from cryptofx');
+        $fees = DB::select('select * from fees');
+
+    } catch (\Exception $e) {
+        error_log("Database error: " . $e->getMessage());
+    }
+
 
     $data = [
-        'brokers' => $results
+        'brokers' => $brokers,
+        'fees' => $fees,
     ];
 
     return view('welcome', $data);

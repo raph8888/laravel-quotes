@@ -16,6 +16,30 @@
                 <li>{{ $broker->name }}</li>
             @endforeach
 
+
+            <table class="table table-sm">
+                <thead>
+                <tr>
+                    <th>Crypto FX</th>
+                    <th>Fee</th>
+                </tr>
+                </thead>
+                <tbody>
+
+                @foreach($brokers as $broker)
+                    <tr>
+                        <td>{{ $broker->name }}</td>
+                        @foreach($fees as $fee)
+                            @if($broker->id == $fee->broker_id)
+                                <td>{{ $fee->fee_m }}</td>
+                            @endif
+                        @endforeach
+                    </tr>
+                @endforeach
+
+                </tbody>
+            </table>
+
         </div>
         <script type="text/javascript" src="{{ asset('js/set-background.js') }}"></script>
     </body>
