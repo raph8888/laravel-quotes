@@ -190,6 +190,13 @@ footer .footer-contents {
   }
 }
 
+.time {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  margin-right: -50%;
+  transform: translate(-50%, -50%) }
+
 .banner-text {
   position: absolute;
   top: 50%;

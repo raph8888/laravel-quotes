@@ -10,6 +10,7 @@
 <body class="">
 <div class="wrapper">
 
+    <a href="{{Request::url()}}"><h3 class="time"></h3></a>
     <a href="{{Request::url()}}"><h2 class="banner-text">{{ $quote }}</h2></a>
 
 </div>
