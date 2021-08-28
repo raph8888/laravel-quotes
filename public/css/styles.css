@@ -191,15 +191,17 @@ footer .footer-contents {
 }
 
 .time {
+  font-size: 1em;
   position: absolute;
-  top: 30%;
+  top: 70%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%) }
 
 .banner-text {
+  font-size: 2em;
   position: absolute;
-  top: 50%;
+  top: 40%;
   left: 50%;
   margin-right: -50%;
   transform: translate(-50%, -50%) }

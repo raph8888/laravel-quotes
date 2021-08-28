@@ -11,10 +11,10 @@ class HomepageController extends Controller {
         "Listen to everyone - Trust the ones you admire - Follow your heart",
         "It's not what they call you. It's what you answer to.",
         "#govegan",
-        "Plenitude can be found in the smallest of things",
+        "Plenitude can be found in the smallest of things.",
         "Wear sunscreen.",
-        "The hour is darkest before the dawn",
-        "Per aspera ad astra",
+        "The hour is darkest before the dawn.",
+        "Per aspera ad astra.",
         "Am I a microservice?",
         "Take the red pill."
     ];
