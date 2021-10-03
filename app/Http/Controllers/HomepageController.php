@@ -8,7 +8,7 @@ class HomepageController extends Controller {
 
     public static $quotes = [
         "Do what you love, and period.",
-        "Listen to everyone - Trust the ones you admire - Follow your heart",
+        "Listen to everyone <br> Trust the ones you admire <br> Follow your heart",
         "It's not what they call you. It's what you answer to.",
         "#govegan",
         "Plenitude can be found in the smallest of things.",
@@ -16,7 +16,9 @@ class HomepageController extends Controller {
         "The hour is darkest before the dawn.",
         "Per aspera ad astra.",
         "Am I a microservice?",
-        "Take the red pill."
+        "Take the red pill.",
+        "What you are shouts so loudly in my ears <br> I cannot hear what you say.",
+        "Private victories precede public victories."
     ];
 
     public static function homepageData(){
