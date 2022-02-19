@@ -20,7 +20,7 @@ env_variables:
     # Put production environment variables here.
     APP_DEBUG: true
     APP_ENV: production
-    APP_KEY: base64:1Z2AJseXIY/Wke9u9G+ICLN68sZEvTwCwIRM+VdBEDM=
+    APP_KEY: 1Z2AJseXIY/Wke9u9G+ICLN68sZEvTwCwIRM+VdBEDM=
     APP_NAME: "GCP App - CODE"
 
     LOG_LEVEL: debug
