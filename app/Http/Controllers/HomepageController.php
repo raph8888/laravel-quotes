@@ -7,18 +7,20 @@ use Carbon\Carbon;
 class HomepageController extends Controller {
 
     public static $quotes = [
-        "Do what you love, and period.",
-        "Listen to everyone <br> Trust the ones you admire <br> Follow your heart",
-        "It's not what they call you. It's what you answer to.",
-        "#govegan",
+        "\"Do what you love, and period.\" -raph",
+        "\"Listen as much as one is able to <br> 
+        to other people whose opinions you respect and look up to <br>
+        but in the end it has to come from you.\" -anna wintour",
+        "\"It's not what they call you. It's what you answer to.\" -kylie sonique love",
+        "\"#govegan\" -raph",
         "Plenitude can be found in the smallest of things.",
         "Wear sunscreen.",
         "The hour is darkest before the dawn.",
         "Per aspera ad astra.",
-        "Am I a microservice?",
-        "Take the red pill.",
-        "What you are shouts so loudly in my ears <br> I cannot hear what you say.",
-        "Private victories precede public victories."
+        "\"Take the red pill.\" -morpheus",
+        "\"What you are shouts so loudly in my ears <br> I cannot hear what you say.\" -ralph waldo emerson",
+        "\"Private victories precede public victories.\" -stephen covey",
+        "\"Remember the past, but don't live in it\" -raph"
     ];
 
     public static function homepageData(){
