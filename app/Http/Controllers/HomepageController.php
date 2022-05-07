@@ -9,16 +9,18 @@ class HomepageController extends Controller {
     public static $quotes = [
         "\"Do what you love, and period.\" -raph",
         "\"Listen as much as one is able to, to other people whose opinions you respect and look up to. But in the end it has to come from you.\" <br>-anna wintour",
-        "\"It's not what they call you. It's what you answer to.\" <br>-kylie sonique love",
+        "\"It's not what they call you. <br> It's what you answer to.\" <br>-kylie sonique love",
         "#govegan",
-        "Plenitude can be found in the smallest of things.",
-        "Wear sunscreen.",
-        "The hour is darkest before the dawn.",
-        "Per aspera ad astra.",
+        "\"Plenitude can be found in the smallest of things.\"",
+        "\"Wear sunscreen.\"",
+        "\"The hour is darkest before the dawn.\"",
+        "\"Per aspera ad astra.\"",
         "\"Take the red pill.\" <br>-morpheus",
         "\"What you are shouts so loudly in my ears <br> I cannot hear what you say.\" <br>-ralph waldo emerson",
         "\"Private victories precede public victories.\" <br>-stephen covey",
-        "Remember the past, but don't live in it"
+        "Remember the past, but don't live in it.",
+        "\"Change is the only constant in life.\" <br> -Heraclitus",
+        "\"If you don't believe in yourself, <br> nobody else will\" <br>-rupaul charles"
     ];
 
     public static function homepageData(){
