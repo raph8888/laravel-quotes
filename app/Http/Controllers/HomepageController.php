@@ -20,7 +20,7 @@ class HomepageController extends Controller {
         "\"Private victories precede public victories.\" <br>-stephen covey",
         "Remember the past, but don't live in it.",
         "\"Change is the only constant in life.\" <br> -Heraclitus",
-        "\"If you don't believe in yourself, <br> nobody else will\" <br>-rupaul charles"
+        "\"If you don't believe in yourself, <br> nobody else will.\" <br>-kobe bryant"
     ];
 
     public static function homepageData(){
