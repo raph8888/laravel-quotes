@@ -12,7 +12,7 @@ class HomepageController extends Controller {
         "\"Adoption Over Speculation!\" <br> -raph, about crypto",
         "\"#govegan\" <br> -raph, about food",
         "\"Listen as much as one is able to, to other people whose opinions you respect and look up to. But in the end it has to come from you.\" <br>-anna wintour",
-        "\"It's not what they call you. <br> It's what you answer to.\" <br>-kylie sonique love",
+        "\"It's not what they call you. <br> It's what you answer to.\" <br>-w.c. Fields",
         "\"Plenitude can be found in the smallest of things.\"",
         "\"Wear sunscreen.\"",
         "\"The hour is darkest before the dawn.\"",
@@ -21,7 +21,7 @@ class HomepageController extends Controller {
         "\"What you are shouts so loudly in my ears <br> I cannot hear what you say.\" <br>-ralph waldo emerson",
         "\"Private victories precede public victories.\" <br>-stephen covey",
         "Remember the past, but don't live in it.",
-        "\"Change is the only constant in life.\" <br> -Heraclitus",
+        "\"Change is the only constant in life.\" <br> -heraclitus",
         "\"If you don't believe in yourself, <br> nobody else will.\" <br>-kobe bryant"
     ];
 
