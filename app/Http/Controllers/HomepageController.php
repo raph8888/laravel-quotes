@@ -9,9 +9,10 @@ class HomepageController extends Controller {
     public static $quotes = [
         "\"Do what you love, and period.\" <br> -raph, about work",
         "\"It's not an alcohol problem, it's an alcohol preference.\" <br> -raph, about red wine",
+        "\"Adoption Over Speculation!\" <br> -raph, about crypto",
+        "\"#govegan\" <br> -raph, about food",
         "\"Listen as much as one is able to, to other people whose opinions you respect and look up to. But in the end it has to come from you.\" <br>-anna wintour",
         "\"It's not what they call you. <br> It's what you answer to.\" <br>-kylie sonique love",
-        "#govegan",
         "\"Plenitude can be found in the smallest of things.\"",
         "\"Wear sunscreen.\"",
         "\"The hour is darkest before the dawn.\"",
