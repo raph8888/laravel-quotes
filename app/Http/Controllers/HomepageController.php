@@ -24,7 +24,7 @@ class HomepageController extends Controller {
         "\"Change is the only constant in life.\" <br> -heraclitus",
         "\"If you don't believe in yourself, <br> nobody else will.\" <br>-kobe bryant",
         "\"When a person can't find a deep sense of meaning, <br> they distract themselves with pleasure.\" <br>-viktor e. frankl",
-        "\"Being horny is not chemistry. <br>-raph\""
+        "\"Ugly crying for days do wonders for your vision.\" . <br>-raph"
     ];
 
     public static function homepageData(){
